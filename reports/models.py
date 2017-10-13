@@ -32,8 +32,10 @@ class WeekReport(models.Model):
         return True
 
     def has_object_read_permission(self, request):
-        print('aaa')
-        return request.user == self.owner
+        userinfo = User.objects.get(username=request.user)
+        role = userinfo.roles.name
+        if request.user == self.owner or role == 'admin' or role == 'groupadmin':
+            return True
 
     @staticmethod
     def has_write_permission(request):
