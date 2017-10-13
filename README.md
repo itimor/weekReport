@@ -4,7 +4,7 @@
 [![django](https://img.shields.io/badge/django-1.11.4-brightgreen.svg)](https://www.djangoproject.com/)
 [![django-rest-framework](https://img.shields.io/badge/djangorestframework-3.6.3-brightgreen.svg)](http://www.django-rest-framework.org/)
 [![django-rest-framework-jwt](https://img.shields.io/badge/djangorestframeworkjwt-1.11.0-brightgreen.svg)](https://github.com/GetBlimp/django-rest-framework-jwt)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/report-frontend/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/weekReport/blob/master/LICENSE)
 
 **周报系统是采用的前后端分离开发，本项目是周报系统的后端** `前端未写，这个用vuejs很好结合`
 
