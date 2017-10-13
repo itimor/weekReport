@@ -6,7 +6,7 @@
 [![django-rest-framework-jwt](https://img.shields.io/badge/djangorestframeworkjwt-1.11.0-brightgreen.svg)](https://github.com/GetBlimp/django-rest-framework-jwt)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/report-frontend/blob/master/LICENSE)
 
-**周报系统是采用的前后端分离开发，本项目是周报系统的后端** `前端未写，这个其他用vuejs很好结合`
+**周报系统是采用的前后端分离开发，本项目是周报系统的后端** `前端未写，这个用vuejs很好结合`
 
 **注意：理论上该项目支持python2.7X和python3.X**
 
