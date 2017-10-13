@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'reports',
     'users',
+    'dry_rest_permissions',
 ]
 
 MIDDLEWARE = [

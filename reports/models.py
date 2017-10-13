@@ -32,6 +32,7 @@ class WeekReport(models.Model):
         return True
 
     def has_object_read_permission(self, request):
+        print('aaa')
         return request.user == self.owner
 
     @staticmethod
