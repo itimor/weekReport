@@ -6,19 +6,20 @@
 [![django-rest-framework-jwt](https://img.shields.io/badge/djangorestframeworkjwt-1.11.0-brightgreen.svg)](https://github.com/GetBlimp/django-rest-framework-jwt)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/report-frontend/blob/master/LICENSE)
 
-**周报系统是采用的前后端分离开发，本项目是周报系统的后端** [点我到前端](https://github.com/itimor/report-frontend.git)
+**周报系统是采用的前后端分离开发，本项目是周报系统的后端** `前端未写，这个其他用vuejs很好结合`
 
-**注意：该项目支持python2.7X和python3.X**
+**注意：理论上该项目支持python2.7X和python3.X**
 
 **注意：周报系统使用 `django rest framework` 提供的restful API功能进行开发，后端主要提供api数据支持，前端负责路由和页面渲染，访问正常页面请配和使用前端项目** 
 
 ## 功能
-- 登录/注销
 - 权限验证
 - 用户管理
 - 角色管理
-- 权限管理
 - 周报管理
+
+**角色管理**
+本项目的权限管理是基于角色控制的，简单建立三个角色，超级管理员、组管理员、普通用户，超级管理员能查看所有周报，组管理员只能查看他所在组的所有周报，普通用户只能查看自己的周报，而且除了自己其他人都不能修改周报，如果希望开放管理员修改权限，可以编辑 `reports/models.py` 下面的权限控制。
 
 ## 开发
 ```bash
@@ -39,27 +40,20 @@
     python manage.py runserver 0.0.0.0:8000
 
 ```
-浏览器访问API `http://localhost:8000/api/`， 若前端项目已经部署好，可以直接访问前端
-
-## 效果图
-
-### api界面
-
-
-### 前端界面
-
+浏览器访问API `http://localhost:8000/api/`
 
 ## 目录结构
 ```shell
 ├── LICENSE
 ├── manage.py
 ├── README.md
-├── requirements.txt
-├── statics
-├── upload
-└── utils
+├── reports              //周报模块
+├── reports.db
+├── requirements.txt     //依赖包
+├── users                //用户模块
+└── weekReport           //主配文件
 
 ```
 
-## 待开发功能
+## 开发功能
 - [ ] 

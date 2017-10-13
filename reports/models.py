@@ -49,7 +49,11 @@ class WeekReport(models.Model):
         return True
 
     def has_object_update_permission(self, request):
-        return request.user == self.owner
+        userinfo = User.objects.get(username=request.user)
+        role = userinfo.roles.name
+        #if request.user == self.owner or role == 'admin' or role == 'groupadmin':
+        if request.user == self.owner:
+            return True
 
     @staticmethod
     def has_publish_permission(request):
