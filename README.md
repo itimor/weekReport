@@ -1,4 +1,4 @@
-# 周报系统 #
+# 桃子周报系统 #
 
 [![python3.x](https://img.shields.io/badge/python-3.X-brightgreen.svg)](https://www.python.org/)
 [![django](https://img.shields.io/badge/django-1.11.4-brightgreen.svg)](https://www.djangoproject.com/)
@@ -6,7 +6,7 @@
 [![django-rest-framework-jwt](https://img.shields.io/badge/djangorestframeworkjwt-1.11.0-brightgreen.svg)](https://github.com/GetBlimp/django-rest-framework-jwt)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/weekReport/blob/master/LICENSE)
 
-**周报系统是采用的前后端分离开发，本项目是周报系统的后端** `前端未写，这个用vuejs很好结合`
+**周报系统是采用的前后端分离开发，本项目是周报系统的后端, [点我到后端](https://github.com/itimor/peach-frontend)**
 
 **注意：理论上该项目支持python2.7X和python3.X**
 
