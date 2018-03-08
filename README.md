@@ -6,7 +6,7 @@
 [![django-rest-framework-jwt](https://img.shields.io/badge/djangorestframeworkjwt-1.11.0-brightgreen.svg)](https://github.com/GetBlimp/django-rest-framework-jwt)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itimor/weekReport/blob/master/LICENSE)
 
-**之前写过一个传统的周报系统，这次采用的前后端分离开发，本项目是周报系统的后端, [点我到后端](https://github.com/itimor/peach-frontend)**
+**之前写过一个传统的周报系统，这次采用的前后端分离开发，本项目是周报系统的后端**
 
 **注意：理论上该项目支持python2.7X和python3.X**
 
